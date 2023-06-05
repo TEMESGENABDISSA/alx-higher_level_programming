@@ -1,6 +1,8 @@
 #DESCRIPTION ON PYTHON
+
 #ALL THIS TASK IS DONE BY TEMESGEN ABDISSA  
 "Python - Hello, World" is a phrase commonly used to describe the first program a programmer typically writes when learning the Python programming language. The program simply prints the message "Hello, World!" to the console or terminal. This program serves as a basic introduction to the syntax of the Python language and is a good starting point for beginners. It is often used as a benchmark for comparing different programming languages and their ease of use.
+
 #Given Tasks
 #Mandatory Tasks
 
