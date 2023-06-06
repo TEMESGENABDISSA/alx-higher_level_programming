@@ -1,5 +1,5 @@
 #!/usr/bin/python3
 # Author - Temesgen Abdissa
-for letter in range(97, 123):
-    if chr(letter) != 'q' and chr(letter) != 'e':
-        print("{}".format(chr(letter)), end="")
+for c in range(ord('a'), ord('z')+1):
+    if c not in [ord('q'), ord('e')]:
+        print(chr(c), end='')
