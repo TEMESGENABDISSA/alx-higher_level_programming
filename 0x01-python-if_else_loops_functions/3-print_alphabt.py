@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Author - Temesgen Abdissa
-for c in range(ord('a'), ord('z')+1):
-    if c not in [ord('q'), ord('e')]:
-        print(chr(c), end='')
+for letter in range(ord('a'), ord('z')+1):
+    if chr(letter) not in ('e', 'q'):
+        print(chr(letter), end='')
+
