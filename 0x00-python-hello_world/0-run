@@ -1,2 +1,7 @@
 #!/bin/bash
-python3 "$PYFILE"
+
+# Get the filename from the environment variable
+filename="$PYFILE"
+
+# Run the Python script using the python3 interpreter
+python3 "$filename"
