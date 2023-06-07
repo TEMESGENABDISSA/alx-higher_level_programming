@@ -1,3 +1,2 @@
 #!/bin/bash
-filename="$PYFILE"
 python3 "$filename"
