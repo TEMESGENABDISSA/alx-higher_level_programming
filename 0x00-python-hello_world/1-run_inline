@@ -1,8 +1,0 @@
-#!/bin/bash
-
-# Get the Python code from the environment variable
-python_code="$PYCODE"
-
-# Execute the Python code
-python -c "$python_code"
-
