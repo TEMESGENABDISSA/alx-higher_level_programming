@@ -1,4 +1,5 @@
-# DESCRIBTION Python - Data Structures: Lists, Tuples   DONE BY : TEMESGEN ABDISSA
+# DESCRIBTION Python - Data Structures: Lists, Tuples   
+# DONE BY : TEMESGEN ABDISSA
 Python is a popular programming language that supports various data structures. Lists and tuples are two of the most commonly used data structures in Python. Lists are ordered and mutable collections of elements, while tuples are ordered and immutable collections of elements. Both can store multiple items of different data types, and support indexing and slicing operations. However, tuples are often used for data that should not be modified, while lists are commonly used for storing and manipulating data.
 
 
