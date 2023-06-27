@@ -1,0 +1,3 @@
+#  Python - Exceptions
+# done by Temesgen Abdissa
+In Python, an exception is an error that occurs during the execution of a program. When an exception occurs, the program stops executing and Python raises an exception object that contains information about the error, such as the type of error and where it occurred. Exceptions can occur for many reasons, such as invalid input, division by zero, or trying to access a file that doesn't exist. Python provides a way to handle exceptions using try...except blocks. Within a try block, code that may raise an exception is executed, and within the except block, the code to handle the exception is specified. By handling exceptions, Python programs can gracefully recover from errors and continue executing.
