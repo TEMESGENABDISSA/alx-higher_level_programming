@@ -1,17 +1,11 @@
 #!/usr/bin/node
-const dict = require('./101-data').dict;
+const list = require('./101-data').dict;
+const sorted = {};
 
-const totalist = Object.entries(dict);
-const vals = Object.values(dict);
-const valsUniq = [...new Set(vals)];
-const newDict = {};
-for (const j in valsUniq) {
-  const list = [];
-  for (const k in totalist) {
-    if (totalist[k][1] === valsUniq[j]) {
-      list.unshift(totalist[k][0]);
-    }
-  }
-  newDict[valsUniq[j]] = list;
+Object.keys(list).forEach(key => {
+  if (sorted[list[key]] === undefined) sorted[list[key]] = [];
+
+  sorted[list[key]].push(key);
 }
-console.log(newDict);
+);
+console.log(sorted);
