@@ -1,16 +1,22 @@
 #!/usr/bin/python3
-"""  lists all states from the database hbtn_0e_0_usa """
+
+'''
+select states from db hbtn_0e_0_usa
+'''
+
 import MySQLdb
 import sys
 
-
 if __name__ == "__main__":
-    db = MySQLdb.connect(host="localhost", user=sys.argv[1],
-                         passwd=sys.argv[2], db=sys.argv[3], port=3306)
+    HOST = 'localhost'
+    DB_USER = sys.argv[1]
+    DB_PASS = sys.argv[2]
+    DB_NAME = sys.argv[3]
+
+    db = MySQLdb.connect(HOST, DB_USER, DB_PASS, DB_NAME)
     cur = db.cursor()
-    cur.execute("SELECT * FROM states")
-    rows = cur.fetchall()
-    for row in rows:
-        print(row)
-    cur.close()
-    db.close()
+
+    cur.execute("SELECT * FROM states ORDER BY id")
+    states = cur.fetchall()
+    for state in states:
+        print(state)
