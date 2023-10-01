@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" script that takes your GitHub credentials (username and password) and uses the GitHub API """
+""" script that takes your GitHub credentials & uses the GitHub API """
 import sys
 import requests
 from requests.auth import HTTPBasicAuth
