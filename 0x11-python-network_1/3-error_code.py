@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-"""script that takes in a URL, sends a request to the URL and displays the body of the response.
-usage:use the packages urllib and sys.
-"""
+""" A script that takes in a URL, sends a request to the URL and displays."""
 import sys
 import urllib.error
 import urllib.request
