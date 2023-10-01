@@ -1,9 +1,8 @@
 #!/usr/bin/python3
-""" script that about
--- fetches https://alx-intranet.hbtn.io/status.
+"""A script that about
+-- fetches https://alx-intranet.hbtn.io/status and 
 -- uses the  urlib package.
 """
-
 import urllib.request
 if __name__ == "__main__":
     request = urllib.request.Request("https://alx-intranet.hbtn.io/status")
