@@ -2,7 +2,7 @@
 """
  A  script that sends a request to the URL and
 displays:
--- The body of the response if there are no errorr and 
+-- The body of the response if there are no errors, 
 -- The error code when there is an HTTP error.
 """
 import sys
