@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""A script that sends a request to the URL &  displays the value of a variable in the response header."""
+"""A script that sends a request to the URL and 
+  displays the value of a variable in the response header."""
 import sys
 import requests
 if __name__ == "__main__":
