@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""  displays the value of a variable in the response header and List the  most recent commits on a given GitHub repository."""
+"""List the  most recent commits on a given GitHub-Repository"""
 import sys
 import requests
 if __name__ == "__main__":
