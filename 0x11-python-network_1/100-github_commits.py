@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-"""A script that sends a request to the URL and 
-  displays the value of a variable in the response header."""
+"""  displays the value of a variable in the response header and List the  most recent commits on a given GitHub repository."""
 import sys
 import requests
 if __name__ == "__main__":
